@@ -9,11 +9,11 @@
     <body>
         <h1>Boek uw vakantie</h1>
         <form action="submit.php" method="post">
-            <label for="voornaam">Voornaam:</label>
-            <input type="text" id="voornaam" name="voornaam" required pattern="[A-Za-z]+" title="Voornaam mag geen cijfers bevatten" /><br><br>
+            <label for="first name">Voornaam:</label>
+            <input type="text" id="first name" name="first name" required pattern="[A-Za-z]+" title="Voornaam mag geen cijfers bevatten" /><br><br>
     
-            <label for="achternaam">Achternaam:</label>
-            <input type="text" id="achternaam" name="achternaam" required pattern="[A-Za-z]+" title="Achternaam mag geen cijfers bevatten" /><br><br>
+            <label for="last name">Achternaam:</label>
+            <input type="text" id="last name" name="last name" required pattern="[A-Za-z]+" title="Achternaam mag geen cijfers bevatten" /><br><br>
     
             <label>Geslacht:</label>
             <input type="radio" id="man" name="geslacht" value="man" checked>
@@ -21,32 +21,30 @@
             <input type="radio" id="vrouw" name="geslacht" value="vrouw">
             <label for="vrouw">Vrouw</label><br><br>
     
-            <label for="straathuis">Straat met huisnummer:</label>
-            <input type="text" id="straathuis" name="straathuis" required /><br><br>
+            <label for="street house">Straat met huisnummer:</label>
+            <input type="text" id="street house" name="street house" required /><br><br>
     
             <label for="postcode">Postcode:</label>
             <input type="text" id="postcode" name="postcode" required /><br><br>
     
-            <label for="stad">Stad:</label>
-            <input type="text" id="stad" name="stad" required /><br><br>
+            <label for="country">Stad:</label>
+            <input type="text" id="stad" name="country" required /><br><br>
     
             <label for="land">Land:</label>
             <select id="land" name="land">
                 <option value="Nederland">Nederland</option>
                 <option value="Frankrijk">Frankrijk</option>
                 <option value="Spanje">Spanje</option>
-                <!-- Voeg hier andere landen toe -->
             </select><br><br>
     
             <label for="bsn">BSN-nummer:</label>
             <input type="text" id="bsn" name="bsn" required maxlength="9" pattern="[0-9]{9}" /><br><br>
     
-            <label for="vakantieland">Vakantieland:</label>
-            <select id="vakantieland" name="vakantieland">
+            <label for="holiday country">Vakantieland:</label>
+            <select id="holiday country" name="holiday country">
                 <option value="Italië">Italië</option>
                 <option value="Griekenland">Griekenland</option>
                 <option value="Thailand">Thailand</option>
-                <!-- Voeg hier andere vakantielanden toe -->
             </select><br><br>
     
             <label for="datePicker">Boek datum:</label>
