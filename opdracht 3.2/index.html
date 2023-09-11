@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <body>
+        <h1>Boek uw vakantie</h1>
+        <form action="submit.php" method="post">
+            <label for="voornaam">Voornaam:</label>
+            <input type="text" id="voornaam" name="voornaam" required pattern="[A-Za-z]+" title="Voornaam mag geen cijfers bevatten" /><br><br>
+    
+            <label for="achternaam">Achternaam:</label>
+            <input type="text" id="achternaam" name="achternaam" required pattern="[A-Za-z]+" title="Achternaam mag geen cijfers bevatten" /><br><br>
+    
+            <label>Geslacht:</label>
+            <input type="radio" id="man" name="geslacht" value="man" checked>
+            <label for="man">Man</label>
+            <input type="radio" id="vrouw" name="geslacht" value="vrouw">
+            <label for="vrouw">Vrouw</label><br><br>
+    
+            <label for="straathuis">Straat met huisnummer:</label>
+            <input type="text" id="straathuis" name="straathuis" required /><br><br>
+    
+            <label for="postcode">Postcode:</label>
+            <input type="text" id="postcode" name="postcode" required /><br><br>
+    
+            <label for="stad">Stad:</label>
+            <input type="text" id="stad" name="stad" required /><br><br>
+    
+            <label for="land">Land:</label>
+            <select id="land" name="land">
+                <option value="Nederland">Nederland</option>
+                <option value="Frankrijk">Frankrijk</option>
+                <option value="Spanje">Spanje</option>
+                <!-- Voeg hier andere landen toe -->
+            </select><br><br>
+    
+            <label for="bsn">BSN-nummer:</label>
+            <input type="text" id="bsn" name="bsn" required maxlength="9" pattern="[0-9]{9}" /><br><br>
+    
+            <label for="vakantieland">Vakantieland:</label>
+            <select id="vakantieland" name="vakantieland">
+                <option value="Italië">Italië</option>
+                <option value="Griekenland">Griekenland</option>
+                <option value="Thailand">Thailand</option>
+                <!-- Voeg hier andere vakantielanden toe -->
+            </select><br><br>
+    
+            <label for="datePicker">Boek datum:</label>
+        <input type="date" id="datePicker" name="date" min="2023-09-15">
+
+        <label for="datePicker">datum van terugkomst:</label>
+        <input type="date" id="datePicker" name="date" min="2023-09-15">
+        <br>
+        <br>
+        
+    
+            <label for="aantalreisgenoten">Aantal reisgenoten (max 4):</label>
+            <input type="number" id="aantalreisgenoten" name="aantalreisgenoten" min="1" max="4" required /><br><br>
+    
+            <label for="email">E-mail:</label>
+            <input type="email" id="email" name="email" required /><br><br>
+    
+            <label for="wachtwoord">Wachtwoord:</label>
+            <input type="password" id="wachtwoord" name="wachtwoord" required /><br><br>
+    
+            <input type="submit" value="Boek nu" />
+    
+</body>
+</html>
