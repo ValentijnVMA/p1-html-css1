@@ -7,6 +7,7 @@ html {
   font-size: 62.5%;
 }
 body {
+  overflow-x: hidden;
   font-family: "Goldman", cursive;
 }
 
@@ -36,4 +37,27 @@ nav a {
 }
 nav img {
   width: 5vw;
+}
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.full-width-image {
+  width: 100%; 
+  height: auto; 
+}
+full-width-image{
+  background-position: center;
+}
+
+footer{
+background-color: #00a8c7;
+height: 10vh;
+width: 100vw;
+color: aliceblue;
+}
+.background-black{
+  background-color: black;
+  color: aliceblue;
 }
