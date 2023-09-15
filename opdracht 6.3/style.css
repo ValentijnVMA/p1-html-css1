@@ -1,0 +1,45 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+  }
+  
+  body {
+    font-family: Arial, sans-serif;
+  }
+  
+  .navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #333;
+    color: #fff;
+    height: 50px;
+    padding: 0 10px;
+  }
+  
+  .navbar__logo {
+    flex: 1;
+  }
+  
+  .navbar__links {
+    flex: 2;
+    display: flex;
+    justify-content: space-around;
+    list-style: none;
+  }
+  
+  .navbar__link {
+    margin: 0 10px;
+  }
+  
+  .navbar__link a {
+    color: #fff;
+    text-decoration: none;
+  }
+  
+  .navbar__login {
+    flex: 1;
+    text-align: right;
+  }
+  
