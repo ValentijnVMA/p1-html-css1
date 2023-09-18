@@ -58,11 +58,8 @@ article {
   border: 2px solid #000; 
   border-radius: 10px; 
   padding: 10px; 
-}
-
-
-article {
   border-left-width: 4px; 
   border-left-color: #FF0000
 }
+
 body{overflow-x: hidden;}
