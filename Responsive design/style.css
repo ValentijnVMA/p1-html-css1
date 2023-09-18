@@ -1,0 +1,175 @@
+*{
+  margin: 0;
+  padding:0
+}
+body, html {
+  display: flex;
+  flex-direction: column;
+  
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  height: 100%;
+}
+section {
+  width: 100%;
+  padding: 20px;
+  box-sizing: border-box;
+}
+
+
+.section1 {
+  height: 30vh;
+  background-color: lightblue;
+}
+
+.section2 {
+  background-color: purple;
+  height: 30vh;
+}
+
+.section3 {
+  height: 30vh;
+  background-color: darkblue;
+}
+
+
+nav {
+  background-color: red;
+  color: white;
+  text-align: center; 
+  padding: 20px; 
+  height: 10vh;
+}
+
+
+
+
+
+
+
+nav {
+
+  display: flex;
+  width: 100%;
+  padding: 2rem;
+  min-height: 10vh;
+  align-items: center;
+  flex-wrap: wrap;
+  margin: auto;
+  background: #036420;
+  justify-content: space-between;
+}
+nav ul {
+  display: flex;
+  align-items: center;
+  list-style-type: none;
+}
+nav li {
+  font-size: 2.5rem;
+  padding: 0 4rem 0 4rem;
+}
+nav a {
+  color: white;
+  text-decoration: none;
+}
+nav img {
+  width: 5vw;
+}
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+
+.section1 {
+
+  background-color: lightblue;
+}
+
+.section2 {
+  background-color: purple;
+}
+
+.section3 {
+  background-color: darkblue;
+}
+
+
+@media (max-width: 767px) {
+  body, html {
+    color: aliceblue;
+  }
+  .section1 {
+      background-color: lightblue;
+  }
+
+  .section2 {
+      background-color: purple;
+  }
+
+  .section3 {
+      background-color: darkblue;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 1023px) {
+  body, html {
+    color: aliceblue;
+  }
+  .section1 {
+    background-color: lightpink;
+  }
+
+  .section2 {
+    background-color: rgb(101, 101, 199);
+  }
+
+  .section3 {
+    background-color: rgb(42, 123, 151);
+  }
+
+  nav {
+    background-color: rgb(225, 83, 202);
+    color: white;
+    display: flex;
+    justify-content: center; 
+    align-items: center; 
+  }
+
+  nav h1 {
+    font-size: 2rem; 
+  }
+}
+
+
+
+
+@media (min-width: 1024px) {
+  .section1 {
+      background-color: yellow;
+  }
+
+  .section2 {
+      background-color: orange;
+  }
+
+  .section3 {
+      background-color: rgb(13, 109, 30);
+  }
+  nav {
+    background-color: rgb(197, 66, 14);
+    color: white;
+}
+}
+
+
+
+
+
+
+
+
+
+
