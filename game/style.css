@@ -1,0 +1,516 @@
+*{
+  padding: 0%;
+  margin: 0;
+}
+
+
+.body1{
+background-image: url(./img/harpal-singh-eY9nCR7G0xw-unsplash.jpg);
+background-size: cover;
+background-repeat: no-repeat;
+}
+
+.body2{
+background-image: url(./blauw.jpg);
+}
+
+svg {
+  text-align: center;
+  transform: scale(1.310);
+}
+
+/* Add a black background color to the top navigation */
+.navbar {
+display: flex;
+justify-content: center;
+align-items: center;
+}
+
+/* Style the links inside the navigation bar */
+.navbar a {
+  display: flex;
+  color: white;
+  flex: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 21px;
+}
+
+
+.navbar a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+/* Add a color to the active/current link */
+.navbar a.active {
+  background-color: #04AA6D;
+  color: white;
+}
+
+button {
+  position: absolute;
+  display: flex;
+  align-items: center;
+  font-family: inherit;
+  font-weight: 500;
+  font-size: 30px;
+  padding: 0.8em 1.3em 0.8em 0.9em;
+  color: white;
+  background: #ad5389;
+  background: linear-gradient(to right, #0f0c29, #302b63, #24243e);
+  border: none;
+  letter-spacing: 0.05em;
+  border-radius: 16px;
+  margin: 200px 750px;
+}
+
+button svg {
+  margin-right: 3px;
+  transform: rotate(30deg);
+  transition: transform 0.5s cubic-bezier(0.76, 0, 0.24, 1);
+}
+
+button span {
+  transition: transform 0.5s cubic-bezier(0.76, 0, 0.24, 1);
+}
+
+button:hover svg {
+  transform: translateX(5px) rotate(90deg);
+}
+
+button:hover span {
+  transform: translateX(7px);
+}
+
+h1{
+  color: white;
+  font-size: 30px;
+  text-align: center;
+}
+
+
+.h2-goededoel{
+  text-align: center;
+  color: white;
+  margin-bottom: 20px;
+}
+
+a{
+  color: white;
+  text-decoration: none ;
+}
+
+.p-goededoel{
+  color: white;
+  font-size: 15px;
+  text-align: center;
+  letter-spacing: 1px;
+}
+
+.section {
+  max-width: 800px;
+  margin: 50px auto;
+  background: linear-gradient(to right, #0f0c29, #302b63, #24243e);
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  text-align: justify;
+  margin-top: 120px;
+}
+
+
+/* Stijl voor de dropdown container */
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+/* Stijl voor de dropdown knop */
+.dropbtn {
+ color: black;
+  padding: 10px;
+  font-size: 16px;
+  border: none;
+  cursor: pointer;
+}
+
+/* Stijl voor de dropdown inhoud */
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+/* Stijl voor de dropdown opties */
+.dropdown-content a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+
+/* Stijl voor de hover effecten */
+.dropdown-content a:hover {
+  background-color: #ddd;
+}
+
+/* Toon de dropdown inhoud bij hover */
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+.main {
+  display: grid;
+  place-items: center;
+  width: 190px;
+  height: 254px;
+}
+
+.card {
+  width: 190px;
+  height: 254px;
+  background: linear-gradient(to right, #0f0c29, #302b63, #24243e);
+  padding: 2rem 1.5rem;
+  transition: box-shadow .3s ease, transform .2s ease;
+  display: flex;
+  flex-direction: column;
+  position: absolute;
+  margin-left: 90vw;
+  margin-top: 10vw;
+}
+
+.card-info {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.card-avatar {
+  background: radial-gradient(#A8A6B6,#B3B1BF,#BDBBC7,#C5C4CE,#E2E2E7);
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  transition: transform .2s ease;
+}
+
+.card-avatar svg {
+  padding-top: 5px;
+  height: 80px;
+  width: 100px;
+  fill: #515F65;
+}
+
+.card-social {
+  display: flex;
+  justify-content: space-around;
+  width: 190px;
+  margin-top: 10%;
+  text-align: center;
+}
+
+.card-social-icon {
+  list-style: none;
+  color: white;
+  font-size: 0.5em;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.card-social-icon svg {
+  display: block;
+  height: 20px;
+  width: 20px;
+  fill: white;
+  cursor: pointer;
+}
+
+.card-title {
+  color: white; 
+  font-size: 1.5em;
+  font-weight: 600;
+  line-height: 2rem;
+  margin-top: 5px;
+}
+
+.card-subtitle {
+  color: white;
+  font-size: 1.0em;
+}
+
+.address-icon {
+  fill: white;
+  height: 150px;
+  width: 100px;
+  list-style: none;
+  justify-content: space-around;
+}
+
+.address-title {
+  color: white;
+  font-size: 1.0em;
+  font-weight: 600;
+  list-style: none;
+}
+
+.address {
+  color: white;
+  font-size: 0.8em;
+  list-style: none;
+  text-align: center;
+}
+
+.contact-title {
+  color: white;
+  font-size: 1.5em;
+  font-weight: 600;
+  margin-top: 45%;
+  padding-bottom: 5px;
+}
+
+.card-contact {
+  color: white;
+  font-size: 0.8em;
+}
+
+.icon-contact {
+  list-style: none;
+  display: flex;
+  align-items: center;
+}
+
+.icon-contact svg {
+  display: block;
+  height: 18px;
+  width: 18px;
+  fill: white;
+  padding-left: 20px;
+  margin: 10px;
+}
+
+.card:hover {
+  box-shadow: 0 10px 50px #23232333;
+}
+
+.card:hover .card-info {
+  transform: translateY(-5%);
+}
+
+.card-avatar:hover {
+  transform: scale(1.1);
+}
+
+#cs1:hover {
+  transform: scale(2.0);
+}
+
+#cs2:hover {
+  transform: scale(2.0);
+}
+
+#cs3:hover {
+  transform: scale(2.0);
+}
+
+.main:hover #c1 {
+  transform: translateX(0px);
+}
+
+.main:hover #c2 {
+  transform: translateX(200px);
+}
+
+.main:hover #c3 {
+  transform: translateX(-200px);
+}
+
+.bordered-section {
+  border: 2px solid #333; 
+  padding: 20px; 
+  margin: 60px; 
+  border-radius: 10px; 
+  color: white;
+  background: linear-gradient(to right, #0f0c29, #302b63, #24243e);
+}
+
+.xlg{
+  margin-top: 3px;
+}
+
+.p-game{
+  color: white;
+  font-size: 20px;
+  text-align: center;
+  margin-top: 100px;
+}
+
+/* game burak */
+.game-body{
+  font-family: Arial, Helvetica, sans-serif;
+  text-align: center;
+  background: url(./img/mario-bg.jpg);
+  background-size: cover;
+}
+
+#board {
+  width: 540px;
+  height: 540px;
+  background-color: green;
+
+  margin: 0 auto;
+  display: flex;
+  flex-wrap: wrap;
+
+  background: url(./img/soil.png);
+  background-size: cover;
+  border: 3px solid white;
+  border-radius: 25px;
+}
+
+#board div {
+  width: 180px;
+  height: 180px;
+  background-image: url(./img/pipe.png);
+  background-size: cover;
+}
+
+#board div img{
+  width: 100px;
+  width: 100px;
+
+  user-select: none;
+  -moz-user-select: none;
+  -webkit-user-drag: none;
+  -webkit-user-select: none;
+  -ms-user-select: none;
+}  
+/* einde game burak */
+
+header {
+text-align: center;
+margin-bottom: 20px;
+}
+
+
+
+.contact-details li:before {
+content: '\2022'; /* Bullet point */
+color: #333;
+margin-right: 8px;
+}
+
+
+
+header {
+text-align: center;
+margin-bottom: 20px;
+}
+
+.cv {
+color: rgb(0, 0, 0);
+font-size: 30px;
+}
+
+.cv1 {
+color: rgb(255, 255, 255);
+font-size: 30px;
+}
+
+.scv {
+color: #ffffff;
+max-width: 800px;
+margin: 0 auto;
+background: linear-gradient(to right, #0f0c29, #302b63, #24243e);
+padding: 20px;
+border-radius: 8px;
+box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+text-align: justify;
+margin-top: 20px;
+}
+
+.contact-details {
+list-style: none;
+padding: 0;
+}
+
+.contact-details li {
+margin-bottom: 10px;
+}
+
+.contact-details li:before {
+content: '\2022'; /* Bullet point */
+color: #333;
+margin-right: 8px;
+}
+
+a {
+color: white;
+text-decoration: none;
+}
+
+a:hover {
+text-decoration: underline;
+}
+
+.p-goededoel {
+color: white;
+font-size: 15px;
+text-align: center;
+letter-spacing: 1px;
+}
+
+.section {
+max-width: 800px;
+margin: 50px auto;
+background: linear-gradient(to right, #0f0c29, #302b63, #24243e);
+padding: 20px;
+border-radius: 8px;
+box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+text-align: justify;
+margin-top: 120px;
+}
+
+.dropdown {
+position: relative;
+display: inline-block;
+}
+
+.dropbtn {
+color: black;
+padding: 10px;
+font-size: 16px;
+border: none;
+cursor: pointer;
+}
+
+.dropdown-content {
+display: none;
+position: absolute;
+background-color: #f9f9f9;
+min-width: 160px;
+box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+z-index: 1;
+}
+
+.dropdown-content a {
+color: black;
+padding: 12px 16px;
+text-decoration: none;
+display: block;
+}
+
+.dropdown-content a:hover {
+background-color: #ddd;
+}
+
+.dropdown:hover .dropdown-content {
+display: block;
+}
+
+
+
